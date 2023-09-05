@@ -2,15 +2,9 @@ import React from 'react';
   
 const About = () => {
   return (
-    <div
-      style={{
-        display: 'flex',
-        justifyContent: 'Right',
-        alignItems: 'Right',
-        height: '100vh'
-      }}
-    >
-      <h1>GeeksforGeeks is a Computer Science portal for geeks.</h1>
+    <div className="App-header" >
+    <h1> HEllO</h1>
+      <p>Enter Question Here </p>
     </div>
   );
 };
