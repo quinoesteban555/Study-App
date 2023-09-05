@@ -19,7 +19,7 @@ const Navbar = () => {
             About
           </NavLink>
           <NavLink to='/answer' activeStyle>
-            About
+            Answer
           </NavLink>
         </NavMenu>
       </Nav>
