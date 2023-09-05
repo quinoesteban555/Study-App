@@ -14,7 +14,7 @@ function App() {
       <Navbar />
     <Routes>
     <Route path='/about' exact component={About} />
-    <Route path='/answer' component={Answer()} />
+    <Route path='/answer' element={<Answer />} />
     </Routes>
     </Router>
   );
