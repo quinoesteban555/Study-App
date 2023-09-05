@@ -56,8 +56,9 @@ function App() {
     },[])}
       <header className="App-header">
       Study Time
-      <form>
+      <form className='Input'> 
       <label htmlFor="location"> {question} </label>
+        <br />
         <input type="text" name="answer" onChange={handleUserInput}/>
         <br />
         <input type="submit" value="Submit" onClick={handleSubmit} />
